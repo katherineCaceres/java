@@ -39,7 +39,8 @@ public class App // clase publica llamada app
         System.out.println(auto.kilometraje());
         Auto auto2 = new Auto(3, "fiat", false, 0, 500F, "rojo");
         System.out.println(auto2.kilometraje());
-        System.out.println(auto2.navegar());
+        System.out.println(auto.navegar());
         System.out.println(auto.cargarCombustible(10));
+        System.out.println(auto2.cargarCombustible(50));
     }
 }
