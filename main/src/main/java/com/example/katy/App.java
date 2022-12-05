@@ -41,6 +41,6 @@ public class App // clase publica llamada app
         System.out.println(auto2.kilometraje());
         System.out.println(auto.navegar());
         System.out.println(auto.cargarCombustible(10));
-        System.out.println(auto2.cargarCombustible(50));
+        System.out.println(auto2.cargarCombustible(0));
     }
 }
