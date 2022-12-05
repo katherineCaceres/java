@@ -42,5 +42,8 @@ public class App // clase publica llamada app
         System.out.println(auto.navegar());
         System.out.println(auto.cargarCombustible(10));
         System.out.println(auto2.cargarCombustible(0));
+
+        Bicicleta bici = new Bicicleta();
+        System.out.println(bici.toString());
     }
 }
